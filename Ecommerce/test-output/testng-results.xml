@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-15T15:27:35 IST" name="Suite" finished-at="2025-02-15T15:29:06 IST" duration-ms="90676">
+    <groups>
+    </groups>
+    <test started-at="2025-02-15T15:27:35 IST" name="ChromeTest" finished-at="2025-02-15T15:28:20 IST" duration-ms="44998">
+      <class name="com.finalpa.Assessment">
+        <test-method is-config="true" signature="browser_Launching(java.lang.String)[pri:0, instance:com.finalpa.Assessment@72bc6553]" started-at="2025-02-15T15:27:35 IST" name="browser_Launching" finished-at="2025-02-15T15:27:37 IST" duration-ms="2130" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser_Launching -->
+        <test-method signature="user_Click_The_Parfum_Category()[pri:1, instance:com.finalpa.Assessment@72bc6553]" started-at="2025-02-15T15:27:37 IST" name="user_Click_The_Parfum_Category" finished-at="2025-02-15T15:27:48 IST" duration-ms="11258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_Click_The_Parfum_Category -->
+        <test-method signature="user_Clicks_The_All_Filter_Options()[pri:2, instance:com.finalpa.Assessment@72bc6553]" started-at="2025-02-15T15:27:48 IST" name="user_Clicks_The_All_Filter_Options" finished-at="2025-02-15T15:28:18 IST" duration-ms="29982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_Clicks_The_All_Filter_Options -->
+        <test-method signature="validate_The_Listed_Products()[pri:3, instance:com.finalpa.Assessment@72bc6553]" started-at="2025-02-15T15:28:18 IST" name="validate_The_Listed_Products" finished-at="2025-02-15T15:28:20 IST" duration-ms="1544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_The_Listed_Products -->
+      </class> <!-- com.finalpa.Assessment -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2025-02-15T15:28:20 IST" name="EdgeTest" finished-at="2025-02-15T15:29:06 IST" duration-ms="45644">
+      <class name="com.finalpa.Assessment">
+        <test-method is-config="true" signature="browser_Launching(java.lang.String)[pri:0, instance:com.finalpa.Assessment@30f842ca]" started-at="2025-02-15T15:28:20 IST" name="browser_Launching" finished-at="2025-02-15T15:28:23 IST" duration-ms="2665" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser_Launching -->
+        <test-method signature="user_Click_The_Parfum_Category()[pri:1, instance:com.finalpa.Assessment@30f842ca]" started-at="2025-02-15T15:28:23 IST" name="user_Click_The_Parfum_Category" finished-at="2025-02-15T15:28:32 IST" duration-ms="9193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_Click_The_Parfum_Category -->
+        <test-method signature="user_Clicks_The_All_Filter_Options()[pri:2, instance:com.finalpa.Assessment@30f842ca]" started-at="2025-02-15T15:28:32 IST" name="user_Clicks_The_All_Filter_Options" finished-at="2025-02-15T15:29:01 IST" duration-ms="28969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_Clicks_The_All_Filter_Options -->
+        <test-method signature="validate_The_Listed_Products()[pri:3, instance:com.finalpa.Assessment@30f842ca]" started-at="2025-02-15T15:29:01 IST" name="validate_The_Listed_Products" finished-at="2025-02-15T15:29:06 IST" duration-ms="4794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_The_Listed_Products -->
+      </class> <!-- com.finalpa.Assessment -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
