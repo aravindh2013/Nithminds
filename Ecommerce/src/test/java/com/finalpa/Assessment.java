@@ -76,35 +76,35 @@ public class Assessment extends Base_class {
 		Assert.assertTrue(parfum.getMehrFilter().isDisplayed() || parfum.getMehrFilter().isEnabled()
 				, "Filter element is not ready to interact.");
 		clickOnElement(parfum.getMehrFilter());
-		Thread.sleep(1000);
+		
 		Assert.assertTrue(parfum.getGeschenkfür().isDisplayed() || parfum.getGeschenkfür().isEnabled()
 				, "Gift dpdo element is not ready to interact.");
 		clickOnElement(parfum.getGeschenkfür());
-		Thread.sleep(1000);
+		
 		Assert.assertTrue(parfum.getGeschenkfürElement().isDisplayed() || parfum.getGeschenkfürElement().isEnabled()
 				, "Gift element is not ready to interact.");
 		clickOnElement(parfum.getGeschenkfürElement());
-		Thread.sleep(1000);
+		
 		Assert.assertTrue(parfum.getProduktart().isDisplayed() || parfum.getProduktart().isEnabled()
 				, "Product dpdo element is not ready to interact.");
 		clickOnElement(parfum.getProduktart());
-		Thread.sleep(1000);
+		
 		Assert.assertTrue(parfum.getProduktartElement().isDisplayed() || parfum.getProduktartElement().isEnabled()
 				, "Product element is not ready to interact.");
 		clickOnElement(parfum.getProduktartElement());
-		Thread.sleep(1000);
+		
 		Assert.assertTrue(parfum.getMarke().isDisplayed() || parfum.getMarke().isEnabled()
 				, "Brand dpdo element is not ready to interact.");
 		clickOnElement(parfum.getMarke());
-		Thread.sleep(1000);
+		
 		Assert.assertTrue(parfum.getMarkeEelment().isDisplayed() || parfum.getMarkeEelment().isEnabled()
 				, "Brand element is not ready to interact.");
 		clickOnElement(parfum.getMarkeEelment());
-		Thread.sleep(1000);
+		
 		Assert.assertTrue(parfum.getFürWen().isDisplayed() || parfum.getFürWen().isEnabled()
 				, "Gender dpdo element is not ready to interact.");
 		clickOnElement(parfum.getFürWen());
-		Thread.sleep(1000);
+		
 		Assert.assertTrue(parfum.getFürWenElement().isDisplayed() || parfum.getFürWenElement().isEnabled()
 				, "Gender element is not ready to interact.");
 		clickOnElement(parfum.getFürWenElement());
